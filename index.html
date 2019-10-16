@@ -1,1 +1,144 @@
-"Hello World" 
+<!doctype html>
+<html lang="en">
+
+<!--
+WRITTEN BY: Theresa Le
+EMAIL: therel2@uci.edu
+-->
+
+<head>
+    <meta charset="utf-8">
+    <meta name="author" content="Theresa Le">
+    <meta name="description" content="Theresa's Portfolio">
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+    <!-- External Stylesheet -->
+    <link rel="stylesheet" href="./main.css">
+    <title>Website Portfolio</title>
+</head>
+<body>
+    <!-- W3C Validator
+    <p>
+        <a href="http://validator.w3.org/check?uri=referer">
+        W3C validator
+        </a>
+    </p> -->
+    <div class="container">
+        <!-- Main Section -->
+        <section id="main" class="container">
+            <img id="main-img" src="https://cdn2.editmysite.com/images/editor/theme-background/stock/Blur-Lights.jpg" alt="raindrops">
+            <div class="top">
+                <a class="top-text" href="#about">ABOUT</a>&emsp;
+                <a class="top-text" href="#work">WORK</a>&emsp;
+                <a class="top-text" href="#contact">CONTACT</a>       
+            </div>
+            <h1 class="centered-text">
+                THERESA LE
+            </h1>
+            <h6 class="centered-text">
+                A COMPUTER SCIENTIST
+            </h6>
+        </section>
+        <!-- About Section -->
+        <section id="about" class="container">
+            <div class="row">
+                <div class="col-5">
+                    <img id="about-pic" src="./AboutPic.JPG" alt="Theresa Le">
+                </div>
+                <div class="col-7">
+                    <h2>
+                        ABOUT
+                    </h2><br>
+                    <p>Hello! I am Theresa Le, a fourth year computer science student at the
+                        University of California, Irvine. I am on track to graduate by June 2020, and I
+                        am currently seeking a new grad position.<br></br>
+                        I am interested in working in the healthcare or biomedical field, utilizing my
+                        programming skills to ultimately better the world. Technology is constantly advancing,
+                        and I want to help enhance it to emphasize how much technology can improve our society.
+                    </p>
+                </div>
+            </div>
+        </section><br>
+        <!-- Work Section -->
+        <section id="work" class="container">
+            <div class="row">
+                <div class="col-5">
+                    <a href="https://www.orbeeauto.com" target="_blank">
+                        <img id="orbee-pic" src="./PrimaryLogo.png" alt="Orbee Auto">
+                    </a>
+                </div>
+                <div class="col-7">
+                    <h2>
+                        WORK
+                    </h2><br>
+                    <p>At Orbee Auto, I am a Software Engineering Intern who focuses on front-end development
+                        for both internal users and customer products. Since May of 2018, I worked there full time
+                        during the summer and part time during the school year. Entering this position, I had a
+                        very minimal knowledge base of front-end frameworks, languages, and UI/UX practices. I
+                        spent long hours training and reading over documentation, receiving my first debugging
+                        tasks, and ultimately creating my own products from start to finish. A few highlight
+                        products I've created include a Geotargeting Zipcode Map, Site Plugin Creation, and 
+                        Google Ads Integration. Feel free to contact me for more information!
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-5">
+                    <a href="https://www.thecoderschool.com/locations/irvine/" target="_blank">
+                        <img id="coderSchool-pic" src="./transCoderSchool.png" alt="the Coder School">
+                    </a>
+                </div>
+                <div class="col-7"><br>
+                    <p>At theCoderSchool, I dedicated time teaching children the basics of programming and
+                        how to apply that into new games. I utilized Scratch and tkinter.io to introduce
+                        coding in a kid-friendly way. Outside of class, I created my own games and lessons to
+                        prepare for each session. As a coach, I needed to cater each lesson to the difficulty of
+                        the student, along with understanding how to evaluate improvement among my students.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <!-- Contact Section -->
+        <section id="contact" class="container">
+            <div class="row">
+                <div class="col">
+                    <h2>
+                        CONTACT
+                    </h2>
+                </div>
+            </div>
+            <form>
+                <div class="row">
+                    <div class="col">
+                        <input type="text" class="form-control" placeholder="First name">
+                    </div>
+                    <div class="col">
+                        <input type="text" class="form-control" placeholder="Last name">
+                    </div>
+                    <div class="col">
+                        <input type="text" class="form-control" placeholder="Email">
+                    </div>
+                </div>
+                <div class="row" id="message">
+                    <div class="col">
+                        <textarea class="form-control" placeholder="Message"></textarea>
+                    </div>
+                </div>
+            </form>
+            <button type="button" class="btn btn-primary">Submit</button>
+        </section>
+        <footer>
+            <p>Contact information:
+                <a href="mailto:theresadle7@gmail.com">
+                    theresadle7@gmail.com
+                </a>
+            </p>
+        </footer>
+    </div>
+</body>
+</html>
